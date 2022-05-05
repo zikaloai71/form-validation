@@ -43,7 +43,6 @@ inputs.forEach((input) => {
 });
 submit.addEventListener('click',(e)=>{
     e.preventDefault();
-    debugger
     for(let i=0;i<inputs.length;i++){
         if(inputs[i].classList.contains('invalid')){
             confirmMessage.innerText='not submitted yet check invalid inputs';
